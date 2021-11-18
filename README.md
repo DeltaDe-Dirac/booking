@@ -77,11 +77,6 @@ As you can see in the APIs section, you need three types of users:
 - manager
 - owner
 
-<br>
-Please create a new branch named by your full name and upload your project to this branch.
-<br>
-<strong><em>good luck !</em></strong>
-
 ### Local Installation, Spring Boot Starter and Test Execution
 
 Spring Boot Starter command<br />
