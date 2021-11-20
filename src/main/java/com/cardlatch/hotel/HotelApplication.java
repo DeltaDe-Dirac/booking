@@ -11,7 +11,7 @@ public class HotelApplication {
 
 	public static void main(String[] args) {
 		if (args.length == 0) {
-			LOG.warn(String.format("Missing argument %s for properties decryption", "jasypt.encryptor.password"));
+			LOG.warn("Missing argument 'jasypt.encryptor.password' for properties decryption");
 		} else {
 			System.setProperty("jasypt.encryptor.password", args[0]);
 		}
