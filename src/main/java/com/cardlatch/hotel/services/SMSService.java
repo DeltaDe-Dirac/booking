@@ -24,10 +24,11 @@ public class SMSService {
 		Message message = Message
 				.creator(new PhoneNumber(sms.getTo()), new PhoneNumber(propService.getFromNumber()), sms.getMessage())
 				.create();
-		LOG.info(String.format("Unique resource ID created to manage this transaction: %s", message.getSid()));
+		LOG.info("Unique resource ID created to manage this transaction: {}", message.getSid());
 
 	}
 
 	public void receive(MultiValueMap<String, String> smscallback) {
+		// Do nothing because ...
 	}
 }
